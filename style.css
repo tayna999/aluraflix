@@ -4,6 +4,7 @@
     --branco:#ffffff;
     --rosa:#5a0202;
     --verdeneo:#1cf115;
+    --azul:#1eb8cc;
 }
 /*corpo da pagina*/
 body{
@@ -20,14 +21,59 @@ header{
     color: var(--verdeneo)/*cor da fonte*/
 }
 
-section{
-    background-color: var(--rosa);/*cor de fundo*/
-    padding-bottom: 80px;/*espaçamento inferior*/
-    padding-top: 80px;/*espaçamento superior*/
-    display:flex;/*alrta a disposição*/
-    justify-content: center;/*justificado no centro*/
+.chamada-texto {
+    background-color: var(--amarelo);
+    color: var(--preto);
+    margin-right: 20px;/*margem a direita*/
 }
 
-div{
-    margin-right: 20px;/*margem a direita*/
+.chamada {
+    background: rgb(184, 156, 213);
+     padding-bottom: 80px;/*espaçamento inferior*/
+    padding-top: 80px;/*espaçamento superior*/
+    display: flex;/*alterar a disposição*/
+    justify-content: center;/* justificado no centro*/
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+
+.recomendacoes {
+    background-color: var(--lilas-claro);
+    margin-left: 30px;/*margem a direita*/
+    margin-right: 30px;/*margem a direita*/
+}
+.outras-recomendacoes {
+    background-color: var(--amarelo);
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-left: 30px;/*margem a direita*/
+    margin-right: 30px;/*margem a direita*/
+   
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+/*rodapé*/
+footer {
+    color: var(--branco);
+    text-align: center;
 }
