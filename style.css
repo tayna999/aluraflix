@@ -22,7 +22,7 @@ header{
 }
 
 .chamada-texto {
-    background-color: var(--amarelo);
+    background-color: var(--azul);
     color: var(--preto);
     margin-right: 20px;/*margem a direita*/
 }
@@ -54,12 +54,12 @@ img {
 
 
 .recomendacoes {
-    background-color: var(--lilas-claro);
+    background-color: var(--rosa);
     margin-left: 30px;/*margem a direita*/
     margin-right: 30px;/*margem a direita*/
 }
 .outras-recomendacoes {
-    background-color: var(--amarelo);
+    background-color: var(--azul);
     display: flex;
     overflow-x: auto;
     gap: 20px;
