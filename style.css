@@ -2,7 +2,7 @@
 :root{
     --preto:#000;
     --branco:#ffffff;
-    --rosa:#5a0202;
+    --vermelho:#5a0202;
     --verdeneo:#1cf115;
     --verdeclaro:#8cebcb;
 }
@@ -22,8 +22,8 @@ header{
 }
 
 .chamada-texto {
-    background-color: var(--azul);
-    color: var(--preto);
+    background-color: var(--verdeclaro);
+    color: var(--vermelho);
     margin-right: 20px;/*margem a direita*/
 }
 
@@ -54,7 +54,7 @@ img {
 
 
 .recomendacoes {
-    background-color: var(--rosa);
+    background-color: var(--vermelho);
     margin-left: 30px;/*margem a direita*/
     margin-right: 30px;/*margem a direita*/
 }
