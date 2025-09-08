@@ -18,7 +18,7 @@ header{
     border-color: var(--branco);/*cor da borda*/
     padding: 20px; /*espaçamento interno*/
     font-size: 32px;/*tamanho da fonte*/
-    color: var(--verdeneo)/*cor da fonte*/
+    color: var(--azul)/*cor da fonte*/
 }
 
 .chamada-texto {
@@ -28,7 +28,7 @@ header{
 }
 
 .chamada {
-    background: rgb(184, 156, 213);
+    background: rgb(205, 172, 241);
      padding-bottom: 80px;/*espaçamento inferior*/
     padding-top: 80px;/*espaçamento superior*/
     display: flex;/*alterar a disposição*/
