@@ -4,7 +4,7 @@
     --branco:#ffffff;
     --vermelho:#5a0202;
     --verdeneo:#1cf115;
-    --verdeclaro:#8cebcb;
+    --rozao:#491342;
 }
 /*corpo da pagina*/
 body{
@@ -18,17 +18,17 @@ header{
     border-color: var(--branco);/*cor da borda*/
     padding: 20px; /*espaçamento interno*/
     font-size: 32px;/*tamanho da fonte*/
-    color: var(--verdeclaro)/*cor da fonte*/
+    color: var(--verdeneo)/*cor da fonte*/
 }
 
 .chamada-texto {
-    background-color: var(--verdeclaro);
-    color: var(--vermelho);
-    margin-right: 20px;/*margem a direita*/
+    background-color: var(--preto);
+    color: var(--verdeneo);
+    margin-right: 5px;/*margem a direita*/
 }
 
 .chamada {
-    background: rgb(6, 41, 11);
+    background: rgb(41, 4, 4);
      padding-bottom: 80px;/*espaçamento inferior*/
     padding-top: 80px;/*espaçamento superior*/
     display: flex;/*alterar a disposição*/
@@ -36,9 +36,9 @@ header{
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 p {
@@ -59,7 +59,7 @@ img {
     margin-right: 30px;/*margem a direita*/
 }
 .outras-recomendacoes {
-    background-color: var(--verdeclaro);
+    background-color: var(--rozao);
     display: flex;
     overflow-x: auto;
     gap: 20px;
