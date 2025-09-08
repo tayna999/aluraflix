@@ -4,7 +4,7 @@
     --branco:#ffffff;
     --rosa:#5a0202;
     --verdeneo:#1cf115;
-    --azul:#1eb8cc;
+    --verdeclaro:#8cebcb;
 }
 /*corpo da pagina*/
 body{
@@ -18,7 +18,7 @@ header{
     border-color: var(--branco);/*cor da borda*/
     padding: 20px; /*espaçamento interno*/
     font-size: 32px;/*tamanho da fonte*/
-    color: var(--azul)/*cor da fonte*/
+    color: var(--verdeclaro)/*cor da fonte*/
 }
 
 .chamada-texto {
@@ -28,7 +28,7 @@ header{
 }
 
 .chamada {
-    background: rgb(205, 172, 241);
+    background: rgb(6, 41, 11);
      padding-bottom: 80px;/*espaçamento inferior*/
     padding-top: 80px;/*espaçamento superior*/
     display: flex;/*alterar a disposição*/
@@ -59,7 +59,7 @@ img {
     margin-right: 30px;/*margem a direita*/
 }
 .outras-recomendacoes {
-    background-color: var(--azul);
+    background-color: var(--verdeclaro);
     display: flex;
     overflow-x: auto;
     gap: 20px;
